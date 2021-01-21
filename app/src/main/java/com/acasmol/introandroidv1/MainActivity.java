@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity
                 /*The R class, doesn't retrieve the values that it keeps.
                 * Retrieve hexadecimal numbers that are tied to the value,
                 * and internally, Android interprets to the value */
-//              if(textView1.getText().equals(R.string.textView))
+                //if(textView1.getText().equals(getResources().getString(R.string.textView)))
                 if(textView1.getText().equals("Hello World!!"))
                 {
                     textView1.setText(R.string.button2Pressed);
